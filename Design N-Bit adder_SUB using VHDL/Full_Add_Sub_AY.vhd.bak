@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+library work;
+use work.Yunayev_Adder_Package.all;
+
+entity Full_Add_Sub_AY is 
+	port(
+			A:in std_logic;
+			B:in std_logic;
+			Cin: in std_logic;
+			S: out std_logic;
+			Cout: out std_logic;
+			P: out std_logic; -- For Carry look 
+			G: out std_logic; -- For Carry Looks
+		);
+end;
+
+architecture Behavioral of Bit_Add_Sub is
+signal Bcomp:std_logic; --B compliment 
+begin
+	Bcomp <= B xor Cin
+    S <= A xor Bcomp xor Cin;
+    Cout <= (A and Bcomp) or (Cin and (A xor Bcomp));
+    P <= A xor Bcomp;  -- For Carry Looks
+    G <= A and Bcomp; -- For Carry Looks
+end architecture;

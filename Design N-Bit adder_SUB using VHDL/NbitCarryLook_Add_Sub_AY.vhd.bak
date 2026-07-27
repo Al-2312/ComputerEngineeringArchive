@@ -1,0 +1,40 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+library work;
+use work.Yunayev_Adder_Package.all;
+
+entity NbitCarryLook_Add_Sub_AY is 
+port(
+			
+			A:in std_logic_vector(N-1 downto 0);
+			B:in std_logic_vector(N-1 downto 0);
+			Cin: in std_logic;-- will be the same as Operational code if 0 do add, if 1 do subtratciton 
+			S: out std_logic_vector(N-1 downto 0);
+			Cout: out std_logic
+			
+		);
+end;
+	
+-- SIMILAR TO THE FULL NBIT ADD/SUB	
+architecture structural of NbitCarryLook_Add_Sub_AY is 
+
+		signal CarryIns:std_logic_vector(N downto 0);
+		signal P:std_logic_vector(N downto 0);
+		signal G:std_logic_vector(N downto 0);
+begin 
+		CarryOuts(0) <= Cin;
+		forloop: for i in 0 to N-1 generate  
+		P(i) <= A(i) xor B(i);
+		G(i) <= A(i) and B(i);
+		S(i) <= P(i) xor CarryIns()
+			NBit_adder: Full_Adder_AY port map(
+						A =>A(i),
+						B => B(i),
+						Cin => CarryIns(i),
+						S => S(i),
+						Cout => G(i) or (P(i) and CarryIns(i))
+			);
+		end generate forloop;
+			Cout <= G(N) or (P(N) and CarryIns(N));
+end;
