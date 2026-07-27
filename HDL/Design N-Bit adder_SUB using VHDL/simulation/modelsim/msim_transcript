@@ -1,0 +1,91 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Half_Adder_AY_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Design N-Bit adder_SUB using VHDL Yunayev_ALLAN/Full_Adder_AY.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:31:52 on Nov 01,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Design N-Bit adder_SUB using VHDL Yunayev_ALLAN/Full_Adder_AY.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Full_Adder_AY
+# -- Compiling architecture Behavioral of Full_Adder_AY
+# End time: 11:31:52 on Nov 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Design N-Bit adder_SUB using VHDL Yunayev_ALLAN/Half_Adder_AY.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:31:52 on Nov 01,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Design N-Bit adder_SUB using VHDL Yunayev_ALLAN/Half_Adder_AY.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Half_Adder_AY
+# -- Compiling architecture data_flow of Half_Adder_AY
+# End time: 11:31:52 on Nov 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Design N-Bit adder_SUB using VHDL Yunayev_ALLAN/Yunayev_Adder_Package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:31:52 on Nov 01,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Design N-Bit adder_SUB using VHDL Yunayev_ALLAN/Yunayev_Adder_Package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package Yunayev_Adder_Package
+# End time: 11:31:52 on Nov 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Design N-Bit adder_SUB using VHDL Yunayev_ALLAN/BitNFull_Add_Sub_AY.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:31:52 on Nov 01,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Design N-Bit adder_SUB using VHDL Yunayev_ALLAN/BitNFull_Add_Sub_AY.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Yunayev_Adder_Package
+# -- Compiling entity BitNFull_Add_Sub_AY
+# -- Compiling architecture Behavioral of BitNFull_Add_Sub_AY
+# End time: 11:31:52 on Nov 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.bitnfull_add_sub_ay
+# vsim work.bitnfull_add_sub_ay 
+# Start time: 11:31:55 on Nov 01,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.yunayev_adder_package
+# Loading work.bitnfull_add_sub_ay(behavioral)
+# Loading work.full_adder_ay(behavioral)
+# Loading work.half_adder_ay(data_flow)
+add wave -position end  sim:/bitnfull_add_sub_ay/A
+add wave -position end  sim:/bitnfull_add_sub_ay/B
+add wave -position end  sim:/bitnfull_add_sub_ay/Cin
+add wave -position end  sim:/bitnfull_add_sub_ay/Cout
+add wave -position end  sim:/bitnfull_add_sub_ay/S
+add wave -position end  sim:/bitnfull_add_sub_ay/zero
+add wave -position end  sim:/bitnfull_add_sub_ay/overflow
+add wave -position end  sim:/bitnfull_add_sub_ay/negative
+force -freeze sim:/bitnfull_add_sub_ay/A 0111 0
+force -freeze sim:/bitnfull_add_sub_ay/B 0001 0
+force -freeze sim:/bitnfull_add_sub_ay/Cin 0 0
+run
+# ** Warning: The Sum is zero
+#    Time: 0 ps  Iteration: 1  Instance: /bitnfull_add_sub_ay
+# ** Warning: There is an overflow
+#    Time: 0 ps  Iteration: 8  Instance: /bitnfull_add_sub_ay
+# ** Warning: The Sum is zero
+#    Time: 0 ps  Iteration: 8  Instance: /bitnfull_add_sub_ay
+# ** Warning: There is an overflow
+#    Time: 0 ps  Iteration: 9  Instance: /bitnfull_add_sub_ay
+# ** Warning: The sum is negative
+#    Time: 0 ps  Iteration: 9  Instance: /bitnfull_add_sub_ay
+# End time: 11:47:36 on Nov 01,2024, Elapsed time: 0:15:41
+# Errors: 0, Warnings: 5

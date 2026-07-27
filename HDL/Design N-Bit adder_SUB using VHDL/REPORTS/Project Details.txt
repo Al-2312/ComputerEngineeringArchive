@@ -1,0 +1,31 @@
+TASKS TO DO:
+
+1. Design in VHDL Half adder using two processes
+2. Design 1-bit Full-adder using Half adder as a component
+3. Design N=4 bit adder using 1bit Full adder as a component
+4. Design N=4 bit a add/sub component that performs addition when the operations
+code=0, and subtraction when the operations code=1
+5. Create a package where you put all components for future use( Your last name is part
+of package name). All components names must have your last name as a prefix!
+6. A) Design N – bit Ripple-Carry add-sub using 1-bit add/sub as a component, for any
+integer N
+ B) Design N – bit Carry-Lookahead add-sub using 1-bit add-sub as a component for any
+integer N
+7. Design a digital circuit to output OVERFLOW , ZERO, NEGATIVE flags for N-bit add/sub.
+8. Verify all your designs in simulation using waveforms in ModelSim for N=4, and N=32
+bits.
+You must use and demonstrate add/sub with the following operands
+Most positive, Most negative integer as a first operand, and integers 1 and/or 2 as a
+second operand. You have to demonstrate that flags are set correctly in all cases.
+
+
+9. Create N-bit adder/subtractor unit using lpm and compare waveforms with
+your design
+10. Create a Test-Bench file in vhdl to test Add_SUB unit for n=16 bits.
+
+Important requirement:
+You must demonstrate that the test-bench detects an error
+(intentionally created) in your design and prints out simulation time,
+expected result operand 1 and operand 2and , actual result value, and
+values of operand 1 and operand 2 that caused the error.
+REPORT, IS REQUIRED FOR THIS EXERCISE.
