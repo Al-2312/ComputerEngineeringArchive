@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Lab1_elevator is 
+	port(
+	
+	
+);
+end;
+
+architecture dataflow of Lab1_elevator is
+begin 
+
+
+end;

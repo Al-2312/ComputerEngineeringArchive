@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Lab 1 Control System for a 4 Floor Elevator/simulation/modelsim
+Elab1_elevator
+Z1 w1727646255
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+R0
+Z9 8Lab1_elevator.vho
+Z10 FLab1_elevator.vho
+l0
+L36
+VAb4GM@Y762ePgUPHLgEJO3
+!s100 ROK[i[Wf;G_e[zZX0>O6U3
+Z11 OV;C;10.5b;63
+31
+Z12 !s110 1785185583
+!i10b 1
+Z13 !s108 1785185583.000000
+Z14 !s90 -reportprogress|300|-93|-work|work|Lab1_elevator.vho|
+Z15 !s107 Lab1_elevator.vho|
+!i113 1
+Z16 o-93 -work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 13 lab1_elevator 0 22 Ab4GM@Y762ePgUPHLgEJO3
+l101
+L62
+VPz5<JMDI<Fnc[HQ;8BNOK0
+!s100 >7:djBS>z9iI4:]IXQlce1
+R11
+31
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17

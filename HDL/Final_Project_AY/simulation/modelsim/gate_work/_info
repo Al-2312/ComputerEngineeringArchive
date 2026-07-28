@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Final_Project_AY/simulation/modelsim
+Efinaladd10_tb
+Z1 w1734084689
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Final_Project_AY/finalADD10.vhd
+Z5 FC:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Final_Project_AY/finalADD10.vhd
+l0
+L4
+Vn3c4Aa:eQnfg24=CS:Ak73
+!s100 YKOOUd@eMVHNC6`zLS=0X3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1734110791
+!i10b 1
+Z8 !s108 1734110791.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Final_Project_AY/finalADD10.vhd|
+Z10 !s107 C:/Users/Allan/OneDrive/Desktop/Coding/CSC 343 quartus and modelsim/Final_Project_AY/finalADD10.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+DEx4 work 13 finaladd10_tb 0 22 n3c4Aa:eQnfg24=CS:Ak73
+l41
+L7
+Voh;mE9bH`aZQCBKjkUE6L1
+!s100 WEkG]B;=I]G?RdMMhfS2^3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eyunayev_final_project
+Z13 w1734110646
+Z14 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z15 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z16 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+Z17 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z18 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+Z19 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R2
+R3
+Z20 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+Z21 8Final_Project_AY.vho
+Z22 FFinal_Project_AY.vho
+l0
+L38
+Vj?I=gT@Q;fRnPW623hFSL3
+!s100 eofdgOBXEf@3k]ICVUWz22
+R6
+31
+Z23 !s110 1734110731
+!i10b 1
+Z24 !s108 1734110731.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|Final_Project_AY.vho|
+Z26 !s107 Final_Project_AY.vho|
+!i113 1
+Z27 o-93 -work work
+R12
+Astructure
+R14
+R15
+R16
+R17
+R18
+R19
+R2
+R3
+R20
+DEx4 work 21 yunayev_final_project 0 22 j?I=gT@Q;fRnPW623hFSL3
+l547
+L103
+VG2>`W1D_E0KV_5k?SljQL0
+!s100 9`USkYzc5V:J:7IOn2WVk0
+R6
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R27
+R12

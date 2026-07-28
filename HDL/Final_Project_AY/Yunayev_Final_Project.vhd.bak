@@ -1,0 +1,87 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library work;
+use Yunayev_Final_Assignment_Package.all;
+
+entity Yunayev_Final_Project is
+port(
+	CLK: in std_logic;
+	Reg1Load: in std_logic;
+	Reg2Load: in std_logic;
+	Reg3Load: in std_logic;
+	Reg4Load: in std_logic;
+	WriteEnable: in std_logic;
+	SelectDemux: in std_logic;
+	SelectMux: in std_logic;
+	AddSub: in std_logic;
+);
+end Yunayev_Final_Project;
+
+
+architecture Behavioral of Yunayev_Final_Project is
+ signal Reg1LoadFF: STD_LOGIC;
+ signal Reg2LoadFF: STD_LOGIC;
+ signal Reg3LoadFF: STD_LOGIC;
+ signal Reg4LoadFF: STD_LOGIC;
+ signal WriteEnableFF: STD_logic;
+ signal SelectDemuxFF: STD_logic;
+ signal SelectMuxFF: STD_logic;
+ signal AddSubFF: STD_logic;
+begin
+	FFReg1: D_FF
+	port map(
+		D   => Reg1Load,
+      CLK => CLK,
+      Q   => Reg1LoadFF
+);
+
+	FFReg2: D_FF
+		port map(
+			D   => Reg2Load,
+			CLK => CLK,
+			Q   => Reg2LoadFF
+);
+
+	FFReg3: D_FF
+		port map(
+			D   => Reg3Load,
+			CLK => CLK,
+			Q   => Reg3LoadFF
+);
+
+	FFReg4: D_FF
+		port map(
+			D   => Reg4Load,
+			CLK => CLK,
+			Q   => Reg4LoadFF
+);
+
+	FFWriteEnable: D_FF
+		port map(
+			D   => WriteEnable,
+			CLK => CLK,
+			Q   => WriteEnableFF
+);	
+
+	FFSelectDemux: D_FF
+		port map(
+			D   => SelectDemux,
+			CLK => CLK,
+			Q   => SelectDemuxFF
+);	
+
+	FFSelectMux: D_FF
+		port map(
+			D   => SelectMux,
+			CLK => CLK,
+			Q   => SelectMuxFF
+);	
+
+	FFAddSub: D_FF
+		port map(
+			D   => AddSub,
+			CLK => CLK,
+			Q   => AddSubFF
+);	
+
+end Behavioral;
