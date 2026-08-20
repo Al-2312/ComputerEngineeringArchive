@@ -1,4 +1,4 @@
-# Systems Engineering & Computer Architecture Archive
+# Computer Architecture Archive
 
 repository containing low-level implementations, algorithmic data structures, and systems architecture projects completed throughout my Computer Engineering studies. 
 
